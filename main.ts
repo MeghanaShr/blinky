@@ -1,12 +1,8 @@
-/**
- * Write a program to make the maqueen Red LED blink on Even numbers.
- * 
- * 1. Start a counter that counts from 78 down till 16. (one second for every number)
- * 
- * 2. if the number is odd then Turn OFF the RED LEDs
- * 
- * 3. if the number is even then Turn ON the RED LEDs
- */
+// Write a program to make the maqueen Red LED blink on Even numbers.
+// 
+// 1. Start a counter that counts from 78 down till 16. (one second for every number)
+// 2. if the number is odd then Turn OFF the RED LEDs
+// 3. if the number is even then Turn ON the RED LEDs
 let counter = 78
 while (counter > 16) {
     if (counter % 2 == 0) {
